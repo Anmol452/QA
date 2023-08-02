@@ -1,0 +1,9 @@
+import requests
+import json
+
+url = 'https://reqres.in/api/users?page=2'
+response = requests.get(url)
+
+#1) parse response to json format
+# json_respons = json.loads(response.text)
+# print(json_respons)
