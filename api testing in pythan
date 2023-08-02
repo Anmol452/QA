@@ -7,3 +7,7 @@ response = requests.get(url)
 #1) parse response to json format
 # json_respons = json.loads(response.text)
 # print(json_respons)
+
+# 2) fetch value using keys
+pages = json_response['total_pages']
+print(pages[0])
