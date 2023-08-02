@@ -1,7 +1,17 @@
+teminal commend
+1) pip install requests
+2) pip -u requests
+3) install jsonpath
+
+_______________________________________________________________________
+
 import requests
 
 url = 'https://reqres.in/api/users?page=2'
 response = requests.get(url)
-print(response.json())
+# print(response.json())
 
+# display response content
+# print(response.content)
+# print(response.headers)
 
