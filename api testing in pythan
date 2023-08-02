@@ -1,3 +1,8 @@
+# 1) Api Testing in pythan
+- fetch response content
+- json Path
+___________________________________________________
+
 import requests
 import json
 
